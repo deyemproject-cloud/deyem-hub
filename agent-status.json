@@ -1,0 +1,31 @@
+{
+  "last_updated": null,
+  "agents": {
+    "sam": {
+      "name": "Sam",
+      "role": "Personal Assistant",
+      "status": "online",
+      "tasks_today": 0,
+      "current_task": null,
+      "color": "#f0b429"
+    },
+    "virgil": {
+      "name": "Virgil",
+      "role": "Content Creator",
+      "status": "idle",
+      "tasks_today": 0,
+      "current_task": null,
+      "color": "#a78bfa"
+    },
+    "mark": {
+      "name": "Mark",
+      "role": "Web Designer",
+      "status": "idle",
+      "tasks_today": 0,
+      "current_task": null,
+      "color": "#60a5fa"
+    }
+  },
+  "activity": [],
+  "timeline": []
+}
