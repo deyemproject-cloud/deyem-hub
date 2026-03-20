@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-20T18:00:00",
+  "last_updated": "2026-03-20T17:20:00",
   "agents": {
     "sam": {
       "name": "Sam",
@@ -8,7 +8,28 @@
       "tasks_today": 12,
       "current_task": null,
       "color": "#f0b429",
-      "activity": []
+      "activity": [
+        {
+          "icon": "commit",
+          "text": "Command Center live \u2014 GitHub polling",
+          "time": "17:20"
+        },
+        {
+          "icon": "commit",
+          "text": "MuuuTeca 4-page site rebuilt",
+          "time": "16:06"
+        },
+        {
+          "icon": "ok",
+          "text": "Notion DEYEM Hub connected",
+          "time": "16:49"
+        },
+        {
+          "icon": "ok",
+          "text": "Virgil & Mark set up as subagents",
+          "time": "14:02"
+        }
+      ]
     },
     "virgil": {
       "name": "Virgil",
@@ -19,7 +40,13 @@
       "clients": 1,
       "current_task": null,
       "color": "#a78bfa",
-      "activity": []
+      "activity": [
+        {
+          "icon": "ok",
+          "text": "Virgil online in #deyem-virgil \u2014 ready for briefs",
+          "time": "14:02"
+        }
+      ]
     },
     "mark": {
       "name": "Mark",
@@ -30,8 +57,56 @@
       "projects": 1,
       "current_task": null,
       "color": "#60a5fa",
-      "activity": []
+      "activity": [
+        {
+          "icon": "commit",
+          "text": "Pushed 4 pages to GitHub Pages",
+          "time": "17:15"
+        },
+        {
+          "icon": "write",
+          "text": "Built carta-dei-vini.html & prenotazioni.html",
+          "time": "17:15"
+        },
+        {
+          "icon": "read",
+          "text": "Studied design system",
+          "time": "17:11"
+        }
+      ]
     }
   },
-  "timeline": []
+  "activity": [],
+  "timeline": [
+    {
+      "agent": "sam",
+      "text": "Command Center live \u2014 polling GitHub raw URL",
+      "time": "17:20"
+    },
+    {
+      "agent": "mark",
+      "text": "Completed MuuuTeca website \u2014 4 pages built and pushed",
+      "time": "17:15"
+    },
+    {
+      "agent": "virgil",
+      "text": "Introduced itself in #deyem-virgil",
+      "time": "14:02"
+    },
+    {
+      "agent": "sam",
+      "text": "Connected Notion DEYEM Hub workspace",
+      "time": "16:49"
+    },
+    {
+      "agent": "sam",
+      "text": "Set up Virgil and Mark as subagents",
+      "time": "14:01"
+    },
+    {
+      "agent": "sam",
+      "text": "56 skills installed",
+      "time": "earlier"
+    }
+  ]
 }
