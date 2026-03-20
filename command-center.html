@@ -362,22 +362,17 @@ function updateUI(data) {
   }
 }
 
+const STATUS_RAW = "https://raw.githubusercontent.com/deyemproject-cloud/deyem-hub/main/agent-status.json";
+
 async function poll() {
   try {
-    const res = await fetch('/status.json', { cache: 'no-cache' });
+    const res = await fetch(STATUS_RAW, { cache: 'no-cache' });
     if (res.ok) {
       const data = await res.json();
       updateUI(data);
     }
   } catch(e) {
-    // Fallback: try direct URL
-    try {
-      const res = await fetch('http://localhost:8080/status.json', { cache: 'no-cache' });
-      if (res.ok) {
-        const data = await res.json();
-        updateUI(data);
-      }
-    } catch(e2) {}
+    console.warn('Poll failed:', e.message);
   }
 }
 
