@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-20T17:00:00",
+  "last_updated": "2026-03-20T18:00:00",
   "agents": {
     "sam": {
       "name": "Sam",
@@ -8,12 +8,7 @@
       "tasks_today": 12,
       "current_task": null,
       "color": "#f0b429",
-      "activity": [
-        {"icon": "commit", "text": "Command Center live polling wired up", "time": "17:45"},
-        {"icon": "write", "text": "Spawned Mark to build remaining 2 pages", "time": "17:15"},
-        {"icon": "ok", "text": "Notion DEYEM Hub connected — Clienti, Content Calendar, Progetti databases", "time": "16:49"},
-        {"icon": "commit", "text": "MuuuTeca 4-page site rebuilt with correct design system", "time": "16:06"}
-      ]
+      "activity": []
     },
     "virgil": {
       "name": "Virgil",
@@ -24,9 +19,7 @@
       "clients": 1,
       "current_task": null,
       "color": "#a78bfa",
-      "activity": [
-        {"icon": "ok", "text": "Virgil online in #deyem-virgil — ready for content briefs", "time": "14:02"}
-      ]
+      "activity": []
     },
     "mark": {
       "name": "Mark",
@@ -37,24 +30,8 @@
       "projects": 1,
       "current_task": null,
       "color": "#60a5fa",
-      "activity": [
-        {"icon": "commit", "text": "Pushed commit b708b92 — carta-dei-vini.html & prenotazioni.html", "time": "17:15"},
-        {"icon": "write", "text": "Building carta-dei-vini.html & prenotazioni.html", "time": "17:12"},
-        {"icon": "read", "text": "Studying design system from index.html & menu.html", "time": "17:11"},
-        {"icon": "ok", "text": "Mark deployed in #deyem-mark thread", "time": "14:01"}
-      ]
+      "activity": []
     }
   },
-  "timeline": [
-    {"agent": "sam", "text": "Command Center live polling wired up — server at 94.176.236.87:8080", "time": "17:45"},
-    {"agent": "mark", "text": "Completed MuuuTeca website — 4 pages built and pushed to GitHub Pages", "time": "17:15"},
-    {"agent": "sam", "text": "Spawned Mark to build remaining 2 pages while continuing with Andrea", "time": "17:11"},
-    {"agent": "virgil", "text": "Introduced itself in #deyem-virgil — ready for content briefs", "time": "14:02"},
-    {"agent": "mark", "text": "Initialized and deployed in #deyem-mark thread", "time": "14:01"},
-    {"agent": "sam", "text": "Connected Notion API — DEYEM Hub workspace created with Clienti, Content Calendar, Progetti databases", "time": "16:49"},
-    {"agent": "sam", "text": "Built MuuuTeca 4-page website (index, chi-siamo, menu, prenotazioni)", "time": "16:06"},
-    {"agent": "sam", "text": "Set up Virgil and Mark as subagents for DEYEM Project", "time": "14:01"},
-    {"agent": "sam", "text": "56 skills installed — marketing, social media, design, automation", "time": "earlier"},
-    {"agent": "sam", "text": "Firecrawl API configured — 500 free credits active", "time": "earlier"}
-  ]
+  "timeline": []
 }
