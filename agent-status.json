@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-20T17:56:16.524348+00:00",
+  "last_updated": "2026-03-20T18:38:19.110480+00:00",
   "agents": {
     "sam": {
       "name": "Sam",
@@ -35,11 +35,11 @@
     "mark": {
       "name": "Mark",
       "role": "Web Designer",
-      "status": "online",
+      "status": "working",
       "tasks_today": 1,
       "pages_built": 4,
       "projects": 1,
-      "current_task": null,
+      "current_task": "Building MuuuTeca v2 \u2014 4 pages (Chi Siamo, Menu, Carta dei Vini, Prenotazioni)",
       "color": "#60a5fa",
       "activity": [
         {
@@ -58,7 +58,7 @@
           "time": "17:11"
         }
       ],
-      "timeline": "Respawned on Kimi K2.5 \u2014 ready for web builds"
+      "timeline": "Started full site build \u2014 5 pages total, Google Stitch design"
     }
   },
   "activity": [
@@ -70,6 +70,11 @@
     }
   ],
   "timeline": [
+    {
+      "agent": "mark",
+      "text": "Started full site build \u2014 5 pages total, Google Stitch design",
+      "time": "19:38"
+    },
     {
       "agent": "mark",
       "text": "Respawned on Kimi K2.5 \u2014 ready for web builds",
