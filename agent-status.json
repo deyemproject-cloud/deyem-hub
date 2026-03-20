@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-20T20:14:09.487438+00:00",
+  "last_updated": "2026-03-20T20:16:06.223460+00:00",
   "agents": {
     "sam": {
       "name": "Sam",
@@ -35,11 +35,11 @@
     "mark": {
       "name": "Mark",
       "role": "Web Designer",
-      "status": "online",
+      "status": "working",
       "tasks_today": 1,
       "pages_built": 4,
       "projects": 1,
-      "current_task": null,
+      "current_task": "Fixing mobile dropdown menu styling",
       "color": "#60a5fa",
       "activity": [
         {
@@ -58,7 +58,7 @@
           "time": "17:11"
         }
       ],
-      "timeline": "Respawned and ready for next web task"
+      "timeline": "Fixing mobile nav dropdown position and spacing"
     }
   },
   "activity": [
@@ -70,6 +70,11 @@
     }
   ],
   "timeline": [
+    {
+      "agent": "mark",
+      "text": "Fixing mobile nav dropdown position and spacing",
+      "time": "21:16"
+    },
     {
       "agent": "mark",
       "text": "Respawned and ready for next web task",
