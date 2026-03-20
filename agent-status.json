@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-20T17:45:57.773205+00:00",
+  "last_updated": "2026-03-20T17:56:15.860740+00:00",
   "agents": {
     "sam": {
       "name": "Sam",
@@ -17,7 +17,7 @@
     "virgil": {
       "name": "Virgil",
       "role": "Content Creator",
-      "status": "idle",
+      "status": "online",
       "tasks_today": 0,
       "posts_today": 0,
       "clients": 1,
@@ -29,7 +29,8 @@
           "text": "Virgil online in #deyem-virgil \u2014 ready for briefs",
           "time": "14:02"
         }
-      ]
+      ],
+      "timeline": "Respawned on Kimi K2.5 \u2014 ready for content briefs"
     },
     "mark": {
       "name": "Mark",
@@ -68,6 +69,11 @@
     }
   ],
   "timeline": [
+    {
+      "agent": "virgil",
+      "text": "Respawned on Kimi K2.5 \u2014 ready for content briefs",
+      "time": "18:56"
+    },
     {
       "agent": "sam",
       "text": "Test from Andrea at 18:45",
