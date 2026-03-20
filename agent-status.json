@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-20T17:45:00",
+  "last_updated": "2026-03-20T17:45:57.773205+00:00",
   "agents": {
     "sam": {
       "name": "Sam",
@@ -8,23 +8,28 @@
       "tasks_today": 12,
       "current_task": null,
       "color": "#f0b429",
-      "activity": [
-        {
-          "icon": "ok",
-          "text": "Status server GitHub push confirmed",
-          "time": "17:45"
-        }
-      ]
+      "activity": {
+        "icon": "ok",
+        "text": "Status server test"
+      },
+      "timeline": "Test from Andrea at 18:45"
     },
     "virgil": {
       "name": "Virgil",
       "role": "Content Creator",
       "status": "idle",
       "tasks_today": 0,
+      "posts_today": 0,
       "clients": 1,
       "current_task": null,
       "color": "#a78bfa",
-      "activity": []
+      "activity": [
+        {
+          "icon": "ok",
+          "text": "Virgil online in #deyem-virgil \u2014 ready for briefs",
+          "time": "14:02"
+        }
+      ]
     },
     "mark": {
       "name": "Mark",
@@ -35,19 +40,88 @@
       "projects": 1,
       "current_task": null,
       "color": "#60a5fa",
-      "activity": []
+      "activity": [
+        {
+          "icon": "commit",
+          "text": "Pushed 4 pages to GitHub Pages",
+          "time": "17:15"
+        },
+        {
+          "icon": "write",
+          "text": "Built carta-dei-vini.html & prenotazioni.html",
+          "time": "17:15"
+        },
+        {
+          "icon": "read",
+          "text": "Studied design system",
+          "time": "17:11"
+        }
+      ]
     }
   },
+  "activity": [
+    {
+      "agent": "sam",
+      "icon": "ok",
+      "text": "",
+      "time": "18:31"
+    }
+  ],
   "timeline": [
     {
       "agent": "sam",
-      "text": "Live server GitHub push confirmed",
-      "time": "17:45"
+      "text": "Test from Andrea at 18:45",
+      "time": "18:45"
+    },
+    {
+      "agent": "sam",
+      "text": "Debug test at 18:40",
+      "time": "18:33"
+    },
+    {
+      "agent": "sam",
+      "text": "Test at 18:37",
+      "time": "18:32"
+    },
+    {
+      "agent": "sam",
+      "text": "Live status server test at 18:30",
+      "time": "18:31"
+    },
+    {
+      "agent": "sam",
+      "text": "Test update from status server",
+      "time": "18:31"
+    },
+    {
+      "agent": "sam",
+      "text": "Command Center live \u2014 polling GitHub raw URL",
+      "time": "17:20"
     },
     {
       "agent": "mark",
-      "text": "Completed MuuuTeca website",
+      "text": "Completed MuuuTeca website \u2014 4 pages built and pushed",
       "time": "17:15"
+    },
+    {
+      "agent": "virgil",
+      "text": "Introduced itself in #deyem-virgil",
+      "time": "14:02"
+    },
+    {
+      "agent": "sam",
+      "text": "Connected Notion DEYEM Hub workspace",
+      "time": "16:49"
+    },
+    {
+      "agent": "sam",
+      "text": "Set up Virgil and Mark as subagents",
+      "time": "14:01"
+    },
+    {
+      "agent": "sam",
+      "text": "56 skills installed",
+      "time": "earlier"
     }
   ]
 }
