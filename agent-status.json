@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-20T19:54:53.909968+00:00",
+  "last_updated": "2026-03-20T20:10:33.783643+00:00",
   "agents": {
     "sam": {
       "name": "Sam",
@@ -35,11 +35,11 @@
     "mark": {
       "name": "Mark",
       "role": "Web Designer",
-      "status": "working",
+      "status": "idle",
       "tasks_today": 1,
       "pages_built": 4,
       "projects": 1,
-      "current_task": "Building MuuuTeca v2 \u2014 4 pages (Chi Siamo, Menu, Carta dei Vini, Prenotazioni)",
+      "current_task": null,
       "color": "#60a5fa",
       "activity": [
         {
@@ -58,7 +58,7 @@
           "time": "17:11"
         }
       ],
-      "timeline": "Started full site build \u2014 5 pages total, Google Stitch design"
+      "timeline": "Completed MuuuTeca v2 \u2014 6 pages deployed"
     }
   },
   "activity": [
@@ -70,6 +70,11 @@
     }
   ],
   "timeline": [
+    {
+      "agent": "mark",
+      "text": "Completed MuuuTeca v2 \u2014 6 pages deployed",
+      "time": "21:10"
+    },
     {
       "agent": "sam",
       "text": "DEYEM Hub completely rebuilt \u2014 9 organized sub-pages",
