@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-20T17:20:00",
+  "last_updated": "2026-03-20T17:31:16.969923+00:00",
   "agents": {
     "sam": {
       "name": "Sam",
@@ -8,28 +8,11 @@
       "tasks_today": 12,
       "current_task": null,
       "color": "#f0b429",
-      "activity": [
-        {
-          "icon": "commit",
-          "text": "Command Center live \u2014 GitHub polling",
-          "time": "17:20"
-        },
-        {
-          "icon": "commit",
-          "text": "MuuuTeca 4-page site rebuilt",
-          "time": "16:06"
-        },
-        {
-          "icon": "ok",
-          "text": "Notion DEYEM Hub connected",
-          "time": "16:49"
-        },
-        {
-          "icon": "ok",
-          "text": "Virgil & Mark set up as subagents",
-          "time": "14:02"
-        }
-      ]
+      "activity": {
+        "icon": "ok",
+        "text": "Status server test"
+      },
+      "timeline": "Test update from status server"
     },
     "virgil": {
       "name": "Virgil",
@@ -76,8 +59,20 @@
       ]
     }
   },
-  "activity": [],
+  "activity": [
+    {
+      "agent": "sam",
+      "icon": "ok",
+      "text": "",
+      "time": "18:31"
+    }
+  ],
   "timeline": [
+    {
+      "agent": "sam",
+      "text": "Test update from status server",
+      "time": "18:31"
+    },
     {
       "agent": "sam",
       "text": "Command Center live \u2014 polling GitHub raw URL",
